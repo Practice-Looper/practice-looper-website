@@ -33,10 +33,6 @@ div.wrap {
     box-shadow: none !important;
 }
 
-img {
-    width: 70%;
-}
-
 div.col {
     word-break: break-all;
 }
@@ -68,8 +64,8 @@ p#description-text {
     text-align: justify;
 }
 
-.container p {
-    text-align: justify;
+.container {
+    text-align: center;
     font-size: larger;
     word-wrap: normal;
     word-break: keep-all;
@@ -91,6 +87,8 @@ p#description-text {
     color: #369598;
 }
 
-.round-corners {
-    border-radius: 5px;
+@media only screen and (max-width: 992px) {
+    .container {
+        margin-top: 2rem;
+    }
 }

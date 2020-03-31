@@ -33,6 +33,10 @@ div.wrap {
     box-shadow: none !important;
 }
 
+img {
+    width: 70%;
+}
+
 div.col {
     word-break: break-all;
 }
@@ -41,7 +45,8 @@ div.container {
     height: 100%;
 }
 
-h3 {
+h3,
+h4 {
     text-align: center;
     text-transform: uppercase;
 }
@@ -64,8 +69,8 @@ p#description-text {
     text-align: justify;
 }
 
-.container {
-    text-align: center;
+.container p {
+    text-align: justify;
     font-size: larger;
     word-wrap: normal;
     word-break: keep-all;
@@ -87,8 +92,14 @@ p#description-text {
     color: #369598;
 }
 
+.round-corners {
+    border-radius: 5px;
+}
+
+
 @media only screen and (max-width: 992px) {
-    .container {
-        margin-top: 2rem;
+    h3 {
+        font-size: 1.4rem;
+        font-weight: 800;
     }
 }
