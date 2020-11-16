@@ -835,6 +835,10 @@ input[type='checkbox'] {
 	border-radius: 50%;
 }
 
+.locked {
+	opacity: 0.3;
+}
+
 .slider-1 .card-body {
 	padding-bottom: 0;
 }
