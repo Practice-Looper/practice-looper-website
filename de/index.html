@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- www.inovatik.com -->
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Mobile App to loop songs from Spotify or local storage.">
-    <meta name="author" content="Practie Looper, Emka3">
+    <meta name="description"
+          content="Mobile App to loop songs from Spotify or local storage.">
+    <meta name="author"
+          content="Practie Looper, Maksim Kolesnik">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="Practice Looper App" /> <!-- website name -->
-	<meta property="og:site" content="https://practice-looper.de" /> <!-- website link -->
-	<meta property="og:title" content="Practice Looper"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="Practice - Loop Loop - Practice!" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="https://practice-looper.de/images/logo.jpg" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:title"
+          content="Practice Looper für Spotify" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:description"
+          content="Markiere und loope sekundengenaue Songabschnitte aus Audiodateien und Spotify!" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:image"
+          content="https://practice-looper.de/images/feature_graphics_de-og.jpg" />
+    <!-- where do you want your post to link to -->
+    <meta property="og:url"
+          content="https://practice-looper.de" />
+    <meta property="og:type"
+          content="article" />
 
     <!-- Website Title -->
     <title>Practice Looper App</title>
-    
+
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i"
+          rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css"
+          rel="stylesheet">
+    <link href="css/bootstrap.css"
+          rel="stylesheet">
+    <link href="css/fontawesome-all.css"
+          rel="stylesheet">
+    <link href="css/swiper.css"
+          rel="stylesheet">
+    <link href="css/magnific-popup.css"
+          rel="stylesheet">
+    <link href="css/styles.css"
+          rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon"
+          href="images/favicon.png">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
-    
+
+<body data-spy="scroll"
+      data-target=".fixed-top">
+
     <!-- Preloader -->
-	<div class="spinner-wrapper">
+    <div class="spinner-wrapper">
         <div class="spinner">
             <div class="bounce1"></div>
             <div class="bounce2"></div>
@@ -46,7 +69,7 @@
         </div>
     </div>
     <!-- end of preloader -->
-    
+
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
@@ -54,60 +77,96 @@
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" height="100%" alt="alternative"></a> 
-        
+        <a class="navbar-brand logo-image"
+           href="index.html"><img src="images/logo.png"
+                 height="100%"
+                 alt="alternative"></a>
+
         <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-awesome fas fa-bars"></span>
             <span class="navbar-toggler-awesome fas fa-times"></span>
         </button>
         <!-- end of mobile menu toggle button -->
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse"
+             id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#header">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll"
+                       href="index.html#header">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#features">FEATURES</a>
+                    <a class="nav-link page-scroll"
+                       href="index.html#features">FEATURES</a>
                 </li>
-                <!-- Dropdown Menu -->          
+                <!-- Dropdown Menu -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#languages"><span class="item-text">SPRACHEN</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll"
+                       id="navbarDropdown"
+                       role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">DETAILS</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                           href="#languages"><span class="item-text">SPRACHEN</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#details"><span class="item-text">LITE & PREMIUM</span></a>
+                        <a class="dropdown-item"
+                           href="#details"><span class="item-text">LITE & PREMIUM</span></a>
                     </div>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
                 </li> -->
 
-                <!-- Dropdown Menu -->          
+                <!-- Dropdown Menu -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SUPPORT</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://github.com/Practice-Looper/practice-looper-app-issues/issues/new/choose" target="_blank"><span class="item-text">BUG REPORT</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll"
+                       id="navbarDropdown"
+                       role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">SUPPORT</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                           href="https://github.com/Practice-Looper/practice-looper-app-issues/issues/new/choose"
+                           target="_blank"><span class="item-text">BUG REPORT</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="https://github.com/Practice-Looper/practice-looper-app-issues/issues/new/choose" target="_blank"><span class="item-text">FEATURE REQUEST</span></a>
+                        <a class="dropdown-item"
+                           href="https://github.com/Practice-Looper/practice-looper-app-issues/issues/new/choose"
+                           target="_blank"><span class="item-text">FEATURE REQUEST</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
 
-                <!-- Dropdown Menu -->          
+                <!-- Dropdown Menu -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">RECHTLICHES</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">IMPRESSUM</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll"
+                       id="navbarDropdown"
+                       role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">RECHTLICHES</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                           href="terms-conditions.html"><span class="item-text">IMPRESSUM</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">DATENSCHUTZ</span></a>
+                        <a class="dropdown-item"
+                           href="privacy-policy.html"><span class="item-text">DATENSCHUTZ</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="third-party.html"><span class="item-text">DRITTANBIETER-SOFTWARE</span></a>
+                        <a class="dropdown-item"
+                           href="third-party.html"><span class="item-text">DRITTANBIETER-SOFTWARE</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
-                
+
                 <!--
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">KONTAKT</a>
@@ -116,19 +175,22 @@
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
-                    <a href="https://www.facebook.com/practicelooper" target="_blank" >
+                    <a href="https://www.facebook.com/practicelooper"
+                       target="_blank">
                         <i class="fas fa-circle fa-stack-2x"></i>
                         <i class="fab fa-facebook-f fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="https://www.instagram.com/practicelooper_app/" target="_blank" >
+                    <a href="https://www.instagram.com/practicelooper_app/"
+                       target="_blank">
                         <i class="fas fa-circle fa-stack-2x"></i>
                         <i class="fab fa-instagram fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="https://twitter.com/practicelooper" target="_blank" >
+                    <a href="https://twitter.com/practicelooper"
+                       target="_blank">
                         <i class="fas fa-circle fa-stack-2x"></i>
                         <i class="fab fa-twitter fa-stack-1x"></i>
                     </a>
@@ -140,23 +202,30 @@
 
 
     <!-- Header -->
-    <header id="header" class="header">
+    <header id="header"
+            class="header">
         <div class="header-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="text-container">
-                            <h1>MOBILE APP <br>FÜR <span id="js-rotating">TÄNZER, MUSIKER, SÄNGER, LEHRER, POETEN, PERFORMER</span></h1>
+                            <h1>MOBILE APP <br>FÜR <span id="js-rotating">TÄNZER, MUSIKER, SÄNGER, LEHRER, POETEN,
+                                    PERFORMER</span></h1>
                             <p class="p-large">Practice, Loop - Loop, Practice!</p>
-                            <p class="p-large">Mit der Practice Looper App setzt du dem ständigen Zurückspulen ein Ende, 
-                                um endlich nur Abschnitte deiner Lieblingssongs unterschiedlichster Audioquellen zu loopen - inklusive Songs aus deinem Spotify Premium Account.</p>
-                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
-                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                            <p class="p-large">Mit der Practice Looper App setzt du dem ständigen Zurückspulen ein Ende,
+                                um endlich nur Abschnitte deiner Lieblingssongs unterschiedlichster Audioquellen zu
+                                loopen - inklusive Songs aus deinem Spotify Premium Account.</p>
+                            <a class="btn-solid-lg page-scroll"
+                               href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg page-scroll"
+                               href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
                         </div>
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="image-container">
-                            <img class="img-fluid" src="images/header-mocks.png" alt="alternative">
+                            <img class="img-fluid"
+                                 src="images/header-mocks.png"
+                                 alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -166,11 +235,12 @@
     <!-- end of header -->
 
 
-    
-    
+
+
 
     <!-- Features -->
-    <div id="features" class="tabs">
+    <div id="features"
+         class="tabs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -181,31 +251,61 @@
             <div class="row">
 
                 <!-- Tabs Links -->
-                <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
+                <ul class="nav nav-tabs"
+                    id="lenoTabs"
+                    role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-plus"></i>SONGS HINZUFÜGEN</a>
+                        <a class="nav-link active"
+                           id="nav-tab-1"
+                           data-toggle="tab"
+                           href="#tab-1"
+                           role="tab"
+                           aria-controls="tab-1"
+                           aria-selected="true"><i class="fas fa-plus"></i>SONGS HINZUFÜGEN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-redo-alt"></i>LOOPS EINSTELLEN</a>
+                        <a class="nav-link"
+                           id="nav-tab-2"
+                           data-toggle="tab"
+                           href="#tab-2"
+                           role="tab"
+                           aria-controls="tab-2"
+                           aria-selected="false"><i class="fas fa-redo-alt"></i>LOOPS EINSTELLEN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-bookmark"></i>LOOPS SPEICHERN & LADEN</a>
+                        <a class="nav-link"
+                           id="nav-tab-3"
+                           data-toggle="tab"
+                           href="#tab-3"
+                           role="tab"
+                           aria-controls="tab-3"
+                           aria-selected="false"><i class="fas fa-bookmark"></i>LOOPS SPEICHERN & LADEN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-4" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false"><i class="fas fa-cog"></i>EINSTELLUNGEN</a>
+                        <a class="nav-link"
+                           id="nav-tab-4"
+                           data-toggle="tab"
+                           href="#tab-4"
+                           role="tab"
+                           aria-controls="tab-4"
+                           aria-selected="false"><i class="fas fa-cog"></i>EINSTELLUNGEN</a>
                     </li>
                 </ul>
                 <!-- end of tabs links -->
 
 
                 <!-- Tabs Content-->
-                <div class="tab-content" id="lenoTabsContent">
-                    
+                <div class="tab-content"
+                     id="lenoTabsContent">
+
                     <!-- Tab -->
-                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                    <div class="tab-pane fade show active"
+                         id="tab-1"
+                         role="tabpanel"
+                         aria-labelledby="tab-1">
                         <div class="container">
                             <div class="row">
-                                
+
                                 <!-- Icon Cards Pane -->
                                 <div class="col-lg-4">
                                     <div class="card left-pane first">
@@ -224,7 +324,8 @@
                                         <div class="card-body">
                                             <div class="text-wrapper">
                                                 <h4 class="card-title">Andere Streaming Dienste</h4>
-                                                <p>Bald folgen auch weitere Streaming-Anbieter - bleibe auf dem neuesten Stand und folge unseren Social-Media-Kanälen!</p>
+                                                <p>Bald folgen auch weitere Streaming-Anbieter - bleibe auf dem neuesten
+                                                    Stand und folge unseren Social-Media-Kanälen!</p>
                                             </div>
                                             <div class="card-icon">
                                                 <i class="fas fa-flask"></i>
@@ -236,10 +337,12 @@
 
                                 <!-- Image Pane -->
                                 <div class="col-lg-4">
-                                    <img class="img-fluid" src="images/features-iphone-1.png" alt="alternative">
+                                    <img class="img-fluid"
+                                         src="images/features-iphone-1.png"
+                                         alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
-                                 
+
                                 <!-- Icon Cards Pane -->
                                 <div class="col-lg-4">
                                     <div class="card right-pane first">
@@ -249,7 +352,8 @@
                                             </div>
                                             <div class="text-wrapper">
                                                 <h4 class="card-title">Spotify</h4>
-                                                <p>Nutze deinen Spotify Premium Account, um Songs aus der gesamten Spotify-Bibliothek hinzuzufügen.</p>
+                                                <p>Nutze deinen Spotify Premium Account, um Songs aus der gesamten
+                                                    Spotify-Bibliothek hinzuzufügen.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -264,16 +368,21 @@
                     <!-- end of tab -->
 
                     <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                    <div class="tab-pane fade"
+                         id="tab-2"
+                         role="tabpanel"
+                         aria-labelledby="tab-2">
                         <div class="container">
                             <div class="row">
 
                                 <!-- Image Pane -->
                                 <div class="col-md-4">
-                                    <img class="img-fluid" src="images/features-iphone-2.png" alt="alternative">
+                                    <img class="img-fluid"
+                                         src="images/features-iphone-2.png"
+                                         alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
-                                
+
                                 <!-- Text And Icon Cards Area -->
                                 <div class="col-md-8">
                                     <!--
@@ -281,26 +390,29 @@
                                         <h3>Überschirft</h3>
                                         <p>Text</p>
                                     </div>  end of text-area -->
-                                    
+
                                     <div class="icon-cards-area">
-                                            <div class="card">
-                                                <div class="card-icon">
-                                                    <i class="fas fa-sliders-h"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Slider</h4>
-                                                    <p>Nutze den Slider, um die Start- und Endmarkierung deines gewünschten Loops  einzustellen. Dabei sind kurze Loops bis mindestens fünf Sekunden möglich.</p>
-                                                </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-sliders-h"></i>
                                             </div>
-                                            <div class="card">
-                                                <div class="card-icon">
-                                                    <i class="fas fa-crosshairs"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Picker</h4>
-                                                    <p>Für eine sekundengenaue Einstellung deines Loops kannst du auch den Picker nutzen - das Tutorial in der App, zeigt dir wie.</p>
-                                                </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Slider</h4>
+                                                <p>Nutze den Slider, um die Start- und Endmarkierung deines gewünschten
+                                                    Loops einzustellen. Dabei sind kurze Loops bis mindestens fünf
+                                                    Sekunden möglich.</p>
                                             </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-crosshairs"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Picker</h4>
+                                                <p>Für eine sekundengenaue Einstellung deines Loops kannst du auch den
+                                                    Picker nutzen - das Tutorial in der App, zeigt dir wie.</p>
+                                            </div>
+                                        </div>
                                     </div> <!-- end of icon cards area -->
                                 </div> <!-- end of col-md-8 -->
                                 <!-- end of text and icon cards area -->
@@ -311,7 +423,10 @@
                     <!-- end of tab -->
 
                     <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                    <div class="tab-pane fade"
+                         id="tab-3"
+                         role="tabpanel"
+                         aria-labelledby="tab-3">
                         <div class="container">
                             <div class="row">
 
@@ -319,7 +434,9 @@
                                 <div class="col-md-8">
                                     <div class="text-area">
                                         <h3>Premium Feature</h3>
-                                        <p>Diese Features erhältst du in der kostenpflichtigen Premium Version. Mehr dazu findest du <a class="turquoise" href="#details">hier</a>.</p>
+                                        <p>Diese Features erhältst du in der kostenpflichtigen Premium Version. Mehr
+                                            dazu findest du <a class="turquoise"
+                                               href="#details">hier</a>.</p>
                                     </div>
 
                                     <div class="icon-cards-area">
@@ -329,7 +446,8 @@
                                             </div>
                                             <div class="card-body">
                                                 <h4 class="card-title">Loops erstellen & speichern</h4>
-                                                <p>Du kannst zu jedem Song mehrere Loops erstellen und speichern. Gebe deinen Loops Namen, wie z.B. “Intro” oder “Refrain”.</p>
+                                                <p>Du kannst zu jedem Song mehrere Loops erstellen und speichern. Gebe
+                                                    deinen Loops Namen, wie z.B. “Intro” oder “Refrain”.</p>
                                             </div>
                                         </div>
                                         <div class="card">
@@ -338,40 +456,49 @@
                                             </div>
                                             <div class="card-body">
                                                 <h4 class="card-title">Loops abspielen & entfernen</h4>
-                                                <p>Gespeicherte Loops kannst du ansehen, in dem du auf den Button in der Zeile neben dem jeweiligen Song drückst.
-                                                Hier kannst du deine Loops löschen oder laden und abspielen, in dem du sie auswählst. 
+                                                <p>Gespeicherte Loops kannst du ansehen, in dem du auf den Button in der
+                                                    Zeile neben dem jeweiligen Song drückst.
+                                                    Hier kannst du deine Loops löschen oder laden und abspielen, in dem
+                                                    du sie auswählst.
                                                 </p>
                                             </div>
                                         </div>
                                     </div> <!-- end of icon cards area -->
-                                    
-                                     <!-- end of text-area -->
+
+                                    <!-- end of text-area -->
                                 </div> <!-- end of col-md-8 -->
                                 <!-- end of text and icon cards area -->
 
                                 <!-- Image Pane -->
                                 <div class="col-md-4">
-                                    <img class="img-fluid" src="images/features-iphone-3.png" alt="alternative">
+                                    <img class="img-fluid"
+                                         src="images/features-iphone-3.png"
+                                         alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
-                                    
+
                             </div> <!-- end of row -->
                         </div> <!-- end of container -->
                     </div><!-- end of tab-pane -->
 
                     <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
+                    <div class="tab-pane fade"
+                         id="tab-4"
+                         role="tabpanel"
+                         aria-labelledby="tab-4">
                         <div class="container">
                             <div class="row">
-                                
+
                                 <!-- Icon Cards Pane -->
                                 <div class="col-lg-4">
                                     <div class="card left-pane first">
                                         <div class="card-body">
                                             <div class="text-wrapper">
                                                 <h4 class="card-title">Deine Käufe</h4>
-                                                <p>Falls du noch kein Practice Looper Premium besitzt, kannst du es dir hier kaufen.
-                                                    Drücke einfach auf das Item und lass dich durch den Kaufprozess leiten.</p>
+                                                <p>Falls du noch kein Practice Looper Premium besitzt, kannst du es dir
+                                                    hier kaufen.
+                                                    Drücke einfach auf das Item und lass dich durch den Kaufprozess
+                                                    leiten.</p>
                                                 <p>Vielen Dank für deine Unterstützung!</p>
                                             </div>
                                             <div class="card-icon">
@@ -384,7 +511,8 @@
                                         <div class="card-body">
                                             <div class="text-wrapper">
                                                 <h4 class="card-title">Datenschutz & Drittanbieter-Software</h4>
-                                                <p>Hier findest du alle wichtigen Informationen zum Thema Datenschutz und Drittanbieter-Software.</p>
+                                                <p>Hier findest du alle wichtigen Informationen zum Thema Datenschutz
+                                                    und Drittanbieter-Software.</p>
                                             </div>
                                             <div class="card-icon">
                                                 <i class="fas fa-shield-alt"></i>
@@ -396,10 +524,12 @@
 
                                 <!-- Image Pane -->
                                 <div class="col-lg-4">
-                                    <img class="img-fluid" src="images/features-iphone-4.png" alt="alternative">
+                                    <img class="img-fluid"
+                                         src="images/features-iphone-4.png"
+                                         alt="alternative">
                                 </div>
                                 <!-- end of image pane -->
-                                
+
                                 <!-- Icon Cards Pane -->
                                 <div class="col-lg-4">
                                     <div class="card right-pane first">
@@ -409,8 +539,9 @@
                                             </div>
                                             <div class="text-wrapper">
                                                 <h4 class="card-title">Light- & Darkmode</h4>
-                                                <p>Wenn du Practice Looper Premium gekauft hast, kannst du hier zwischen dem Darkmode und Lightmode wechseln.
-                                                Wir nutzen standardmäßig die Theme-Einstellung deines Smartphones.
+                                                <p>Wenn du Practice Looper Premium gekauft hast, kannst du hier zwischen
+                                                    dem Darkmode und Lightmode wechseln.
+                                                    Wir nutzen standardmäßig die Theme-Einstellung deines Smartphones.
                                                 </p>
                                             </div>
                                         </div>
@@ -425,96 +556,111 @@
                 </div> <!-- end of tab-content -->
                 <!-- end of tabs content -->
 
-            </div> <!-- end of row --> 
-        </div> <!-- end of container --> 
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
     </div> <!-- end of tabs -->
     <!-- end of features -->
 
     <!-- Languages -->
-    <div id="languages" class="slider-1">
+    <div id="languages"
+         class="slider-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12"> 
+                <div class="col-lg-12">
                     <div class="slider-container">
                         <div class="swiper-container card-slider">
                             <div class="swiper-wrapper">
-                                
+
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/germany.png" alt="Germany">
+                                        <img class="card-image"
+                                             src="images/germany.png"
+                                             alt="Germany">
                                     </div>
-                                </div> 
-                                
+                                </div>
+
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/united-kingdom.png" alt="UK">
-                                    </div>        
+                                        <img class="card-image"
+                                             src="images/united-kingdom.png"
+                                             alt="UK">
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image locked" src="images/china.png" alt="China">
-                                        <div class="card-body">
-                                            <p class="testimonial-author">Bald verfügbar!</p>
-                                        </div>
-                                    </div>        
-                                </div> 
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image locked" src="images/france.png" alt="France">
+                                        <img class="card-image locked"
+                                             src="images/china.png"
+                                             alt="China">
                                         <div class="card-body">
                                             <p class="testimonial-author">Bald verfügbar!</p>
                                         </div>
                                     </div>
-                                </div> 
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image locked" src="images/spain.png" alt="Spain">
-                                        <div class="card-body">
-                                            <p class="testimonial-author">Bald verfügbar!</p>
-                                        </div>
-                                    </div>        
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image locked" src="images/portugal.png" alt="Portugal">
+                                        <img class="card-image locked"
+                                             src="images/france.png"
+                                             alt="France">
                                         <div class="card-body">
                                             <p class="testimonial-author">Bald verfügbar!</p>
                                         </div>
-                                    </div>        
-                                </div> 
+                                    </div>
+                                </div>
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image locked" src="images/italy.png" alt="Italy">
+                                        <img class="card-image locked"
+                                             src="images/spain.png"
+                                             alt="Spain">
                                         <div class="card-body">
                                             <p class="testimonial-author">Bald verfügbar!</p>
                                         </div>
-                                    </div>        
-                                </div>  
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image locked"
+                                             src="images/portugal.png"
+                                             alt="Portugal">
+                                        <div class="card-body">
+                                            <p class="testimonial-author">Bald verfügbar!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image locked"
+                                             src="images/italy.png"
+                                             alt="Italy">
+                                        <div class="card-body">
+                                            <p class="testimonial-author">Bald verfügbar!</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
-        
-                        </div> 
-                    </div> 
 
-                </div> 
-            </div> 
-    </div> 
-    
-    <!-- Video
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Video
     <div id="preview" class="basic-1">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-lg-12">
                     <h2>PREVIEW</h2>
                     <div class="p-heading p-large">Target the right customers for your business with the help of Leno's patented segmentation technology</div>
-                </div>  
-            </div> 
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
 
-                    
+
                     <div class="image-container">
                         <div class="video-wrapper">
                             <a class="popup-youtube" href="https://www.youtube.com/watch?v=fHcppxD_pJM" data-effect="fadeIn">
@@ -523,232 +669,316 @@
                                     <span></span>
                                 </span>
                             </a>
-                        </div> 
+                        </div>
                     </div>
-                
 
-                </div> 
+
+                </div>
             </div>
-        </div> 
-    </div> 
+        </div>
+    </div>
     end of video -->
 
 
-    <!-- Details 1 -->
-    <div id="details" class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="images/details-1-iphone.png" alt="alternative">
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h3>LITE</h3>
-                        <p>Füge einen Song hinzu und loope so oft du willst!</p>
-                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">MEHR</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details 2 -->
-    <div class="basic-3">
-        <div class="second">
+        <!-- Details 1 -->
+        <div id="details"
+             class="basic-2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="text-container">
-                            <h3>PREMIUM</h3>
-                            <p>Füge beliebig viele Songs hinzu, speichere mehrere Loops pro Song - ganz ohne Werbung!</p>
-                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">MEHR</a>
-                        </div> <!-- end of text-container -->
+                        <img class="img-fluid"
+                             src="images/details-1-iphone.png"
+                             alt="alternative">
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
-                        <img class="img-fluid" src="images/details-2-iphone.png" alt="alternative">
+                        <div class="text-container">
+                            <h3>LITE</h3>
+                            <p>Füge einen Song hinzu und loope so oft du willst!</p>
+                            <a class="btn-solid-reg popup-with-move-anim"
+                               href="#details-lightbox-1">MEHR</a>
+                        </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </div> <!-- end of second -->
-    </div> <!-- end of basic-3 -->    
-    <!-- end of details 2 -->
+        </div> <!-- end of basic-2 -->
+        <!-- end of details 1 -->
 
 
-    <!-- Details Lightboxes -->
-	<!-- Lightbox -->
-	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
-		<div class="row">
-			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-			<div class="col-lg-6">
-				<img class="img-fluid" src="images/details-lightbox-1.png" alt="alternative">
-			</div>
-			<div class="col-lg-6">
-				<h3>Lite Version</h3>
-				<hr>
-                <p>Mit der Practice Looper Lite App kannst du einen Song aus Spotify oder deiner lokalen Musikbibliothek importieren und loopen.
-                Du kannst immer nur ein Song gleichzeitig importiert haben und deine Loops nicht speichern. Außerdem schalten wir in der Lite-Variante Werbung.
-                </p>
-                <h4>Einschränkungen</h4>
-				<table>
-					<tr><td class="icon-cell"><i class="fab fa-itunes-note"></i></td><td>Importieren eines Songs</td></tr>
-					<tr><td class="icon-cell"><i class="fas fa-redo-alt"></i></td><td>Loops können nicht gespeichert werden</td></tr>
-					<tr><td class="icon-cell"><i class="fas fa-bullhorn"></i></td><td>Werbung</td></tr>
-				</table>
-				<!--<a class="btn-solid-reg" href="#your-link">DETAILS</a>--> <a class="btn-outline-reg mfp-close as-button" href="#details">ZURÜCK</a>
-			</div>
-		</div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of lightbox -->
-    
-    <!-- Lightbox -->
-    <div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
-		<div class="row">
-			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-			<div class="col-lg-6">
-				<img class="img-fluid" src="images/details-lightbox-2.png" alt="alternative">
-			</div>
-			<div class="col-lg-6">
-				<h3>Premium Version</h3>
-				<hr>
-                <p>Mit der Practice Looper Premium App kannst du mehrere Songs importieren, werbefrei abspielen und deine Loops speichern.</p>
-                <h4>Genieße Practice Looper ohne Einschränkungen</h4>
-				<table>
-					<tr><td class="icon-cell"><i class="fas fa-bullhorn"></i></td><td>Importieren mehrerer Songs</td></tr>
-					<tr><td class="icon-cell"><i class="fas fa-adjust"></i></td><td>Darkmode und Lightmode</td></tr>
-					<tr><td class="icon-cell"><i class="fas fa-redo-alt"></i></td><td>Loops speichern und abspielen</td></tr>
-					<tr><td class="icon-cell"><i class="fas fa-bullhorn"></i></td><td>Komplett werbefrei</td></tr>
-				</table>
-				<!--<a class="btn-solid-reg" href="#your-link">DETAILS</a>--> <a class="btn-outline-reg mfp-close as-button" href="#details">ZURÜCK</a>
-			</div>
-		</div> <!-- end of row -->
-    </div> <!-- end of lightbox-basic -->
-    <!-- end of details lightboxes -->
+        <!-- Details 2 -->
+        <div class="basic-3">
+            <div class="second">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-container">
+                                <h3>PREMIUM</h3>
+                                <p>Füge beliebig viele Songs hinzu, speichere mehrere Loops pro Song - ganz ohne
+                                    Werbung!</p>
+                                <a class="btn-solid-reg popup-with-move-anim"
+                                   href="#details-lightbox-2">MEHR</a>
+                            </div> <!-- end of text-container -->
+                        </div> <!-- end of col -->
+                        <div class="col-lg-6">
+                            <img class="img-fluid"
+                                 src="images/details-2-iphone.png"
+                                 alt="alternative">
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of second -->
+        </div> <!-- end of basic-3 -->
+        <!-- end of details 2 -->
 
-    <!-- Screenshots -->
-    <div class="slider-2">
-        <div class="container">
+
+        <!-- Details Lightboxes -->
+        <!-- Lightbox -->
+        <div id="details-lightbox-1"
+             class="lightbox-basic zoom-anim-dialog mfp-hide">
             <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Image Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container image-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/download.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-1.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-2.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-2.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-3.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-3.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-4.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-4.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-5.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-5.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-6.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-7.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-7.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-8.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-8.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <a href="images/screenshot-9.png" class="popup-link" data-effect="fadeIn">
-                                        <img class="img-fluid" src="images/screenshot-9.png" alt="alternative">
-                                    </a>
-                                </div>
-                                <!-- end of slide -->
-                                
-                            </div> <!-- end of swiper-wrapper -->
-
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of image slider -->
-
-                </div> <!-- end of col -->
+                <button title="Close (Esc)"
+                        type="button"
+                        class="mfp-close x-button">×</button>
+                <div class="col-lg-6">
+                    <img class="img-fluid"
+                         src="images/details-lightbox-1.png"
+                         alt="alternative">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Lite Version</h3>
+                    <hr>
+                    <p>Mit der Practice Looper Lite App kannst du einen Song aus Spotify oder deiner lokalen
+                        Musikbibliothek importieren und loopen.
+                        Du kannst immer nur ein Song gleichzeitig importiert haben und deine Loops nicht speichern.
+                        Außerdem schalten wir in der Lite-Variante Werbung.
+                    </p>
+                    <h4>Einschränkungen</h4>
+                    <table>
+                        <tr>
+                            <td class="icon-cell"><i class="fab fa-itunes-note"></i></td>
+                            <td>Importieren eines Songs</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"><i class="fas fa-redo-alt"></i></td>
+                            <td>Loops können nicht gespeichert werden</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"><i class="fas fa-bullhorn"></i></td>
+                            <td>Werbung</td>
+                        </tr>
+                    </table>
+                    <!--<a class="btn-solid-reg" href="#your-link">DETAILS</a>--> <a
+                       class="btn-outline-reg mfp-close as-button"
+                       href="#details">ZURÜCK</a>
+                </div>
             </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-2 -->
-    <!-- end of screenshots -->
+        </div> <!-- end of lightbox-basic -->
+        <!-- end of lightbox -->
 
-
-    <!-- Download -->
-    <div class="basic-4">
-        <div class="container">
+        <!-- Lightbox -->
+        <div id="details-lightbox-2"
+             class="lightbox-basic zoom-anim-dialog mfp-hide">
             <div class="row">
-                <div class="col-lg-6 col-xl-5">
-                    <div class="text-container">
-                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
-                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
+                <button title="Close (Esc)"
+                        type="button"
+                        class="mfp-close x-button">×</button>
+                <div class="col-lg-6">
+                    <img class="img-fluid"
+                         src="images/details-lightbox-2.png"
+                         alt="alternative">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Premium Version</h3>
+                    <hr>
+                    <p>Mit der Practice Looper Premium App kannst du mehrere Songs importieren, werbefrei abspielen und
+                        deine Loops speichern.</p>
+                    <h4>Genieße Practice Looper ohne Einschränkungen</h4>
+                    <table>
+                        <tr>
+                            <td class="icon-cell"><i class="fas fa-bullhorn"></i></td>
+                            <td>Importieren mehrerer Songs</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"><i class="fas fa-adjust"></i></td>
+                            <td>Darkmode und Lightmode</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"><i class="fas fa-redo-alt"></i></td>
+                            <td>Loops speichern und abspielen</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-cell"><i class="fas fa-bullhorn"></i></td>
+                            <td>Komplett werbefrei</td>
+                        </tr>
+                    </table>
+                    <!--<a class="btn-solid-reg" href="#your-link">DETAILS</a>--> <a
+                       class="btn-outline-reg mfp-close as-button"
+                       href="#details">ZURÜCK</a>
+                </div>
             </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-4 -->
-    <!-- end of download -->
+        </div> <!-- end of lightbox-basic -->
+        <!-- end of details lightboxes -->
+
+        <!-- Screenshots -->
+        <div class="slider-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Image Slider -->
+                        <div class="slider-container">
+                            <div class="swiper-container image-slider">
+                                <div class="swiper-wrapper">
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/download.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-1.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-2.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-2.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-3.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-3.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-4.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-4.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-5.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-5.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-6.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-6.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-7.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-7.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-8.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-8.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screenshot-9.png"
+                                           class="popup-link"
+                                           data-effect="fadeIn">
+                                            <img class="img-fluid"
+                                                 src="images/screenshot-9.png"
+                                                 alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- end of slide -->
+
+                                </div> <!-- end of swiper-wrapper -->
+
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <!-- end of add arrows -->
+
+                            </div> <!-- end of swiper-container -->
+                        </div> <!-- end of slider-container -->
+                        <!-- end of image slider -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-2 -->
+        <!-- end of screenshots -->
 
 
-    <!-- Statistics 
+        <!-- Download -->
+        <div class="basic-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="text-container">
+                            <a class="btn-solid-lg"
+                               href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg"
+                               href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-4 -->
+        <!-- end of download -->
+
+
+        <!-- Statistics
     <div class="counter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    
+
                     <div id="counter">
                         <div class="cell">
                             <div class="counter-value number-count" data-count="231">1</div>
@@ -767,15 +997,15 @@
                             <p class="counter-info">Case Studies</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
     -->
 
 
-    <!-- Contact 
+        <!-- Contact
     <div id="contact" class="form">
         <div class="container">
             <div class="row">
@@ -787,11 +1017,11 @@
                         <li><i class="fas fa-phone"></i><a class="blue" href="tel:003024630820">+81 720 2212</a></li>
                         <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:office@leno.com">office@leno.com</a></li>
                     </ul>
-                </div> 
-            </div> 
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
-                    
+
                     <form id="contactForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
@@ -809,7 +1039,7 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to Leno's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to Leno's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
@@ -820,94 +1050,104 @@
                         </div>
                     </form>
 
-                </div> 
-            </div> 
-        </div> 
+                </div>
+            </div>
+        </div>
     </div> -->
 
 
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-col">
-                        <h4>About Practice Looper</h4>
-                        <p>Unsere Vision: Eine einfache App zum Loopen von Songs, 
-                            aber nicht nur aus eigenen Audiodateien - sondern auch mit Anbindung an die großen Musikbibliotheken 
-                            unterschiedlichster Streamingdienste! Werde Teil der Vision und unterstütze uns … start looping!</p>                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col middle">
-                        <h4>Wichtige Links</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="turquoise" href="terms-conditions.html">Impressum</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="turquoise" href="privacy-policy.html">Datenschutz</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body"><a class="turquoise" href="third-party.html">Drittanbieter-Software</a></div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-md-4">
-                    <div class="footer-col last">
-                        <h4>Social Media</h4>
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://www.facebook.com/practicelooper">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://www.instagram.com/practicelooper_app/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a target="_blank" href="https://twitter.com/practicelooper">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-col">
+                            <h4>About Practice Looper</h4>
+                            <p>Unsere Vision: Eine einfache App zum Loopen von Songs,
+                                aber nicht nur aus eigenen Audiodateien - sondern auch mit Anbindung an die großen
+                                Musikbibliotheken
+                                unterschiedlichster Streamingdienste! Werde Teil der Vision und unterstütze uns … start
+                                looping!</p>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-4">
+                        <div class="footer-col middle">
+                            <h4>Wichtige Links</h4>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body"><a class="turquoise"
+                                           href="terms-conditions.html">Impressum</a></div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body"><a class="turquoise"
+                                           href="privacy-policy.html">Datenschutz</a></div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body"><a class="turquoise"
+                                           href="third-party.html">Drittanbieter-Software</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-4">
+                        <div class="footer-col last">
+                            <h4>Social Media</h4>
+                            <span class="fa-stack">
+                                <a target="_blank"
+                                   href="https://www.facebook.com/practicelooper">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a target="_blank"
+                                   href="https://www.instagram.com/practicelooper_app/">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a target="_blank"
+                                   href="https://twitter.com/practicelooper">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->
+        <!-- end of footer -->
 
 
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Copyright © Maksim Kolesnik & Simon Symhoven</p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-    	
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small">Copyright © Maksim Kolesnik & Simon Symhoven</p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright -->
+        <!-- end of copyright -->
+
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+        <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+        <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+        <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
+
 </html>

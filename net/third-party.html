@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Mobile App to loop songs from Spotify or local storage.">
+    <meta name="author" content="Practie Looper, Emka3">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="Practice Looper App" /> <!-- website name -->
+	<meta property="og:site" content="https://practice-looper.de" /> <!-- website link -->
+	<meta property="og:title" content="Practice Looper"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Practice - Loop Loop - Practice!" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="https://practice-looper.com/images/logo.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Practice Looper App | Third Party Software</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" height="100%" alt="alternative"></a> 
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#header">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#features">FEATURES</a>
+                </li>
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html#languages"><span class="item-text">LANGUAGES</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="index.html#details"><span class="item-text">LITE & PREMIUM</span></a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
+                </li> -->
+
+                 <!-- Dropdown Menu -->          
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SUPPORT</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://github.com/Practice-Looper/practice-looper-app-issues/issues/new/choose" target="_blank"><span class="item-text">BUG REPORT</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="https://github.com/Practice-Looper/practice-looper-app-issues/issues/new/choose" target="_blank"><span class="item-text">FEATURE REQUEST</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">LEGAL INFORMATION</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">LEGAL NOTICE</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="third-party.html"><span class="item-text">THIRD PARTY SOFTWARE</span><span class="sr-only">(current)</span></a>
+                    </div>
+                </li>
+                
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">KONTAKT</a>
+                </li>
+                -->
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a target="_blank" href="https://www.facebook.com/practicelooper">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a target="_blank" href="https://www.instagram.com/practicelooper_app/">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a target="_blank" href="https://twitter.com/practicelooper">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Third Party Software</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Third Party Software</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+
+    <!-- Terms Content -->
+    <div class="ex-basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="text-container">
+                        <p>The Practice Looper app uses the following third-party software. 
+                            We would like to thank the developers who provided free and open source software to help us implement Practice Looper.</p>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled li-space-lg indent">
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#newtonsoft">Newtonsoft Json</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#xamarin_essentials">Xamarin Essentials</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#coverlet">coverlet</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#moq">Moq</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#sqlite_extensions">SQLiteNetExtensions</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#autofac">Autofac</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#appcenter">AppCenter</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#appcenter_analytics">AppCenter Analytics</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#appcenter_craches">AppCenter Crashes</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#sfpicker">SfPicker</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#sfrangeslider">SfRangeSlider</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#simple_audio_player">SimpleAudioPlayer</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#nunit">Nunit</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#revenue_cat">RevenueCat SDK</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#spotify">Spotify SDK</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#admob-ios">Xamarin Component for Firebase AdMob for iOS</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#admob-droid">Xamarin Component for Google Play Services Client Library</a></div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square"></i>
+                                            <div class="media-body"><a href="#file_picker">FilePicker Plugin for Xamarin.Forms</a></div>
+                                        </li>
+                                    </ul>
+                                </div> <!-- end of col -->
+                            </div> <!-- end of row -->
+                    </div> <!-- end of text-container -->
+                    
+                     <div class="text-container" id="newtonsoft">
+                        <h3>Newtonsoft Json</h3>
+                        <code>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) 2007 James Newton-King<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                            documentation files (the "Software"), to deal in the Software without restriction, including without
+                            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+                            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+                            conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all copies or substantial
+                            portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+                            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+                            OR OTHER DEALINGS IN THE SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="xamarin_essentials">
+                        <h3>Xamarin Essentials</h3>
+                        <code>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) Microsoft Corporation<br>
+                            <br>
+                            All rights reserved.<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all
+                            copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                            SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="coverlet">
+                        <h3>coverlet</h3>
+                        <code>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) 2018 Toni Solarin-Sodara<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all
+                            copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                            SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="moq">
+                        <h3>Moq</h3>
+                        <code>
+                            BSD 3-Clause License<br>
+                            <br>
+                            Copyright (c) 2007, Clarius Consulting, Manas Technology Solutions, InSTEDD,
+                            and Contributors. All rights reserved.<br>
+                            <br>
+                            Redistribution and use in source and binary forms, with or without
+                            modification, are permitted provided that the following conditions are met:<br>
+                            <br>
+                            * Redistributions of source code must retain the above copyright notice,
+                            this list of conditions and the following disclaimer.<br>
+                            <br>
+                            * Redistributions in binary form must reproduce the above copyright
+                            notice, this list of conditions and the following disclaimer in the
+                            documentation and/or other materials provided with the distribution.<br>
+                            <br>
+                            * Neither the names of the copyright holders nor the names of its
+                            contributors may be used to endorse or promote products derived from this
+                            software without specific prior written permission.<br>
+                            <br>
+                            THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+                            AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+                            IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+                            DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+                            FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+                            DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+                            SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+                            CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+                            OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+                            OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="sqlite_extensions">
+                        <h3>SQLiteNetExtensions</h3>
+                        <code>
+                            Copyright (C) 2013 TwinCoders S.L.<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                            documentation files (the "Software"), to deal in the Software without restriction, including without
+                            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+                            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+                            conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all copies or substantial
+                            portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+                            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+                            OR OTHER DEALINGS IN THE SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="autofac">
+                        <h3>Autofac</h3>
+                        <code>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright © 2014 Autofac Project<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all
+                            copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                            SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="appcenter">
+                        <h3>AppCenter</h3>
+                        <code>
+                            Attribution 4.0 International<br>
+                            <br>
+                            =======================================================================<br>
+                            <br>
+                            Creative Commons Corporation ("Creative Commons") is not a law firm and
+                            does not provide legal services or legal advice. Distribution of
+                            Creative Commons public licenses does not create a lawyer-client or
+                            other relationship. Creative Commons makes its licenses and related
+                            information available on an "as-is" basis. Creative Commons gives no
+                            warranties regarding its licenses, any material licensed under their
+                            terms and conditions, or any related information. Creative Commons
+                            disclaims all liability for damages resulting from their use to the
+                            fullest extent possible.<br>
+                            <br>
+                            Using Creative Commons Public Licenses<br>
+                            <br>
+                            Creative Commons public licenses provide a standard set of terms and
+                            conditions that creators and other rights holders may use to share
+                            original works of authorship and other material subject to copyright
+                            and certain other rights specified in the public license below. The
+                            following considerations are for informational purposes only, are not
+                            exhaustive, and do not form part of our licenses.<br>
+                            <br>
+                            Considerations for licensors: Our public licenses are
+                            intended for use by those authorized to give the public
+                            permission to use material in ways otherwise restricted by
+                            copyright and certain other rights. Our licenses are
+                            irrevocable. Licensors should read and understand the terms
+                            and conditions of the license they choose before applying it.
+                            Licensors should also secure all rights necessary before
+                            applying our licenses so that the public can reuse the
+                            material as expected. Licensors should clearly mark any
+                            material not subject to the license. This includes other CC-
+                            licensed material, or material used under an exception or
+                            limitation to copyright. More considerations for licensors:
+                            wiki.creativecommons.org/Considerations_for_licensors<br>
+                            <br>
+                            Considerations for the public: By using one of our public
+                            licenses, a licensor grants the public permission to use the
+                            licensed material under specified terms and conditions. If
+                            the licensor's permission is not necessary for any reason--for
+                            example, because of any applicable exception or limitation to
+                            copyright--then that use is not regulated by the license. Our
+                            licenses grant only permissions under copyright and certain
+                            other rights that a licensor has authority to grant. Use of
+                            the licensed material may still be restricted for other
+                            reasons, including because others have copyright or other
+                            rights in the material. A licensor may make special requests,
+                            such as asking that all changes be marked or described.
+                            Although not required by our licenses, you are encouraged to
+                            respect those requests where reasonable. More_considerations
+                            for the public:
+                            wiki.creativecommons.org/Considerations_for_licensees<br>
+                            <br>
+                            =======================================================================<br>
+                            <br>
+                            Creative Commons Attribution 4.0 International Public License<br>
+                            <br>
+                            By exercising the Licensed Rights (defined below), You accept and agree
+                            to be bound by the terms and conditions of this Creative Commons
+                            Attribution 4.0 International Public License ("Public License"). To the
+                            extent this Public License may be interpreted as a contract, You are
+                            granted the Licensed Rights in consideration of Your acceptance of
+                            these terms and conditions, and the Licensor grants You such rights in
+                            consideration of benefits the Licensor receives from making the
+                            Licensed Material available under these terms and conditions.<br>
+                            <br>
+                            <br>
+                            Section 1 -- Definitions.<br>
+                            <br>
+                            a. Adapted Material means material subject to Copyright and Similar
+                            Rights that is derived from or based upon the Licensed Material
+                            and in which the Licensed Material is translated, altered,
+                            arranged, transformed, or otherwise modified in a manner requiring
+                            permission under the Copyright and Similar Rights held by the
+                            Licensor. For purposes of this Public License, where the Licensed
+                            Material is a musical work, performance, or sound recording,
+                            Adapted Material is always produced where the Licensed Material is
+                            synched in timed relation with a moving image.<br>
+                            <br>
+                            b. Adapter's License means the license You apply to Your Copyright
+                            and Similar Rights in Your contributions to Adapted Material in
+                            accordance with the terms and conditions of this Public License.<br>
+                            <br>
+                            c. Copyright and Similar Rights means copyright and/or similar rights
+                            closely related to copyright including, without limitation,
+                            performance, broadcast, sound recording, and Sui Generis Database
+                            Rights, without regard to how the rights are labeled or
+                            categorized. For purposes of this Public License, the rights
+                            specified in Section 2(b)(1)-(2) are not Copyright and Similar
+                            Rights.<br>
+                            <br>
+                            d. Effective Technological Measures means those measures that, in the
+                            absence of proper authority, may not be circumvented under laws
+                            fulfilling obligations under Article 11 of the WIPO Copyright
+                            Treaty adopted on December 20, 1996, and/or similar international
+                            agreements.<br>
+                            <br>
+                            e. Exceptions and Limitations means fair use, fair dealing, and/or
+                            any other exception or limitation to Copyright and Similar Rights
+                            that applies to Your use of the Licensed Material.<br>
+                            <br>
+                            f. Licensed Material means the artistic or literary work, database,
+                            or other material to which the Licensor applied this Public
+                            License.<br>
+                            <br>
+                            g. Licensed Rights means the rights granted to You subject to the
+                            terms and conditions of this Public License, which are limited to
+                            all Copyright and Similar Rights that apply to Your use of the
+                            Licensed Material and that the Licensor has authority to license.<br>
+                            <br>
+                            h. Licensor means the individual(s) or entity(ies) granting rights
+                            under this Public License.<br>
+                            <br>
+                            i. Share means to provide material to the public by any means or
+                            process that requires permission under the Licensed Rights, such
+                            as reproduction, public display, public performance, distribution,
+                            dissemination, communication, or importation, and to make material
+                            available to the public including in ways that members of the
+                            public may access the material from a place and at a time
+                            individually chosen by them.<br>
+                            <br>
+                            j. Sui Generis Database Rights means rights other than copyright
+                            resulting from Directive 96/9/EC of the European Parliament and of
+                            the Council of 11 March 1996 on the legal protection of databases,
+                            as amended and/or succeeded, as well as other essentially
+                            equivalent rights anywhere in the world.<br>
+                            <br>
+                            k. You means the individual or entity exercising the Licensed Rights
+                            under this Public License. Your has a corresponding meaning.<br>
+                            <br>
+                            <br>
+                            Section 2 -- Scope.<br>
+                            <br>
+                            a. License grant.<br>
+                            <br>
+                            1. Subject to the terms and conditions of this Public License,
+                            the Licensor hereby grants You a worldwide, royalty-free,
+                            non-sublicensable, non-exclusive, irrevocable license to
+                            exercise the Licensed Rights in the Licensed Material to:<br>
+                            <br>
+                            a. reproduce and Share the Licensed Material, in whole or
+                            in part; and<br>
+                            <br>
+                            b. produce, reproduce, and Share Adapted Material.<br>
+                            <br>
+                            2. Exceptions and Limitations. For the avoidance of doubt, where
+                            Exceptions and Limitations apply to Your use, this Public
+                            License does not apply, and You do not need to comply with
+                            its terms and conditions.<br>
+                            <br>
+                            3. Term. The term of this Public License is specified in Section
+                            6(a).<br>
+                            <br>
+                            4. Media and formats; technical modifications allowed. The
+                            Licensor authorizes You to exercise the Licensed Rights in
+                            all media and formats whether now known or hereafter created,
+                            and to make technical modifications necessary to do so. The
+                            Licensor waives and/or agrees not to assert any right or
+                            authority to forbid You from making technical modifications
+                            necessary to exercise the Licensed Rights, including
+                            technical modifications necessary to circumvent Effective
+                            Technological Measures. For purposes of this Public License,
+                            simply making modifications authorized by this Section 2(a)
+                            (4) never produces Adapted Material.<br>
+                            <br>
+                            5. Downstream recipients.<br>
+                            <br>
+                            a. Offer from the Licensor -- Licensed Material. Every
+                            recipient of the Licensed Material automatically
+                            receives an offer from the Licensor to exercise the
+                            Licensed Rights under the terms and conditions of this
+                            Public License.<br>
+                            <br>
+                            b. No downstream restrictions. You may not offer or impose
+                            any additional or different terms or conditions on, or
+                            apply any Effective Technological Measures to, the
+                            Licensed Material if doing so restricts exercise of the
+                            Licensed Rights by any recipient of the Licensed
+                            Material.<br>
+                            <br>
+                            6. No endorsement. Nothing in this Public License constitutes or
+                            may be construed as permission to assert or imply that You
+                            are, or that Your use of the Licensed Material is, connected
+                            with, or sponsored, endorsed, or granted official status by,
+                            the Licensor or others designated to receive attribution as
+                            provided in Section 3(a)(1)(A)(i).<br>
+                            <br>
+                            b. Other rights.<br>
+                            <br>
+                            1. Moral rights, such as the right of integrity, are not
+                            licensed under this Public License, nor are publicity,
+                            privacy, and/or other similar personality rights; however, to
+                            the extent possible, the Licensor waives and/or agrees not to
+                            assert any such rights held by the Licensor to the limited
+                            extent necessary to allow You to exercise the Licensed
+                            Rights, but not otherwise.<br>
+                            <br>
+                            2. Patent and trademark rights are not licensed under this
+                            Public License.<br>
+                
+                            3. To the extent possible, the Licensor waives any right to
+                            collect royalties from You for the exercise of the Licensed
+                            Rights, whether directly or through a collecting society
+                            under any voluntary or waivable statutory or compulsory
+                            licensing scheme. In all other cases the Licensor expressly
+                            reserves any right to collect such royalties.<br>
+                            <br>
+                            <br>
+                            Section 3 -- License Conditions.<br>
+                            <br>
+                            Your exercise of the Licensed Rights is expressly made subject to the
+                            following conditions.<br>
+                            <br>
+                            a. Attribution.<br>
+                            <br>
+                            1. If You Share the Licensed Material (including in modified
+                            form), You must:<br>
+                            <br>
+                            a. retain the following if it is supplied by the Licensor
+                            with the Licensed Material:<br>
+                            <br>
+                            i. identification of the creator(s) of the Licensed
+                            Material and any others designated to receive
+                            attribution, in any reasonable manner requested by
+                            the Licensor (including by pseudonym if
+                            designated);<br>
+                            <br>
+                            ii. a copyright notice;<br>
+                            <br>
+                            iii. a notice that refers to this Public License;<br>
+                            <br>
+                            iv. a notice that refers to the disclaimer of
+                            warranties;<br>
+                            <br>
+                            v. a URI or hyperlink to the Licensed Material to the
+                            extent reasonably practicable;<br>
+                            <br>
+                            b. indicate if You modified the Licensed Material and
+                            retain an indication of any previous modifications; and<br>
+                            <br>
+                            c. indicate the Licensed Material is licensed under this
+                            Public License, and include the text of, or the URI or
+                            hyperlink to, this Public License.<br>
+                            <br>
+                            2. You may satisfy the conditions in Section 3(a)(1) in any
+                            reasonable manner based on the medium, means, and context in
+                            which You Share the Licensed Material. For example, it may be
+                            reasonable to satisfy the conditions by providing a URI or
+                            hyperlink to a resource that includes the required
+                            information.<br>
+                            <br>
+                            3. If requested by the Licensor, You must remove any of the
+                            information required by Section 3(a)(1)(A) to the extent
+                            reasonably practicable.<br>
+                            <br>
+                            4. If You Share Adapted Material You produce, the Adapter's
+                            License You apply must not prevent recipients of the Adapted
+                            Material from complying with this Public License.<br>
+                            <br>
+                            <br>
+                            Section 4 -- Sui Generis Database Rights.<br>
+                            <br>
+                            Where the Licensed Rights include Sui Generis Database Rights that
+                            apply to Your use of the Licensed Material:<br>
+                            <br>
+                            a. for the avoidance of doubt, Section 2(a)(1) grants You the right
+                            to extract, reuse, reproduce, and Share all or a substantial
+                            portion of the contents of the database;<br>
+                            <br>
+                            b. if You include all or a substantial portion of the database
+                            contents in a database in which You have Sui Generis Database
+                            Rights, then the database in which You have Sui Generis Database
+                            Rights (but not its individual contents) is Adapted Material; and<br>
+                            <br>
+                            c. You must comply with the conditions in Section 3(a) if You Share
+                            all or a substantial portion of the contents of the database.<br>
+                            <br>
+                            For the avoidance of doubt, this Section 4 supplements and does not
+                            replace Your obligations under this Public License where the Licensed
+                            Rights include other Copyright and Similar Rights.<br>
+                            <br>
+                            <br>
+                            Section 5 -- Disclaimer of Warranties and Limitation of Liability.<br>
+                            <br>
+                            a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
+                            EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
+                            AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
+                            ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
+                            IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
+                            WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+                            PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
+                            ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
+                            KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
+                            ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.<br>
+                            <br>
+                            b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
+                            TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
+                            NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
+                            INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
+                            COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
+                            USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
+                            ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
+                            DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
+                            IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.<br>
+                            <br>
+                            c. The disclaimer of warranties and limitation of liability provided
+                            above shall be interpreted in a manner that, to the extent
+                            possible, most closely approximates an absolute disclaimer and
+                            waiver of all liability.<br>
+                            <br>
+                            <br>
+                            Section 6 -- Term and Termination.<br>
+                            <br>
+                            a. This Public License applies for the term of the Copyright and
+                            Similar Rights licensed here. However, if You fail to comply with
+                            this Public License, then Your rights under this Public License
+                            terminate automatically.<br>
+                            <br>
+                            b. Where Your right to use the Licensed Material has terminated under
+                            Section 6(a), it reinstates:<br>
+                            <br>
+                            1. automatically as of the date the violation is cured, provided
+                            it is cured within 30 days of Your discovery of the
+                            violation; or<br>
+                            <br>
+                            2. upon express reinstatement by the Licensor.<br>
+                            <br>
+                            For the avoidance of doubt, this Section 6(b) does not affect any
+                            right the Licensor may have to seek remedies for Your violations
+                            of this Public License.<br>
+                            <br>
+                            c. For the avoidance of doubt, the Licensor may also offer the
+                            Licensed Material under separate terms or conditions or stop
+                            distributing the Licensed Material at any time; however, doing so
+                            will not terminate this Public License.<br>
+                            <br>
+                            d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
+                            License.<br>
+                            <br>
+                            <br>
+                            Section 7 -- Other Terms and Conditions.<br>
+                            <br>
+                            a. The Licensor shall not be bound by any additional or different
+                            terms or conditions communicated by You unless expressly agreed.<br>
+                            <br>
+                            b. Any arrangements, understandings, or agreements regarding the
+                            Licensed Material not stated herein are separate from and
+                            independent of the terms and conditions of this Public License.<br>
+                            <br>
+                            <br>
+                            Section 8 -- Interpretation.<br>
+                            <br>
+                            a. For the avoidance of doubt, this Public License does not, and
+                            shall not be interpreted to, reduce, limit, restrict, or impose
+                            conditions on any use of the Licensed Material that could lawfully
+                            be made without permission under this Public License.<br>
+                            <br>
+                            b. To the extent possible, if any provision of this Public License is
+                            deemed unenforceable, it shall be automatically reformed to the
+                            minimum extent necessary to make it enforceable. If the provision
+                            cannot be reformed, it shall be severed from this Public License
+                            without affecting the enforceability of the remaining terms and
+                            conditions.<br>
+                            <br>
+                            c. No term or condition of this Public License will be waived and no
+                            failure to comply consented to unless expressly agreed to by the
+                            Licensor.<br>
+                            <br>
+                            d. Nothing in this Public License constitutes or may be interpreted
+                            as a limitation upon, or waiver of, any privileges and immunities
+                            that apply to the Licensor or You, including from the legal
+                            processes of any jurisdiction or authority.<br>
+                            <br>
+                            <br>
+                            =======================================================================<br>
+                            <br>
+                            Creative Commons is not a party to its public
+                            licenses. Notwithstanding, Creative Commons may elect to apply one of
+                            its public licenses to material it publishes and in those instances
+                            will be considered the “Licensor.” The text of the Creative Commons
+                            public licenses is dedicated to the public domain under the CC0 Public
+                            Domain Dedication. Except for the limited purpose of indicating that
+                            material is shared under a Creative Commons public license or as
+                            otherwise permitted by the Creative Commons policies published at
+                            creativecommons.org/policies, Creative Commons does not authorize the
+                            use of the trademark "Creative Commons" or any other trademark or logo
+                            of Creative Commons without its prior written consent including,
+                            without limitation, in connection with any unauthorized modifications
+                            to any of its public licenses or any other arrangements,
+                            understandings, or agreements concerning use of licensed material. For
+                            the avoidance of doubt, this paragraph does not form part of the
+                            public licenses.<br>
+                            <br>
+                            Creative Commons may be contacted at creativecommons.org.
+                        </code>
+                     </div>
+                     <div class="text-container" id="appcenter_analytics">
+                        <h3>AppCenter Analytics</h3>
+                        <code>
+                            Visual Studio App Center SDK for .NET<br>
+                            <br>
+                            Copyright (c) Microsoft Corporation<br>
+                            <br>
+                            All rights reserved.<br>
+                            <br>
+                            MIT License<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                            documentation files (the ""Software""), to deal in the Software without restriction, including without
+                            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+                            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+                            conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all copies or substantial
+                            portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+                            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+                            OR OTHER DEALINGS IN THE SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="appcenter_craches">
+                        <h3>AppCenter Crashes</h3>
+                        <code>
+                            Visual Studio App Center SDK for .NET<br>
+                            <br>
+                            Copyright (c) Microsoft Corporation<br>
+                            <br>
+                            All rights reserved.<br>
+                            <br>
+                            MIT License<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                            documentation files (the ""Software""), to deal in the Software without restriction, including without
+                            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+                            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+                            conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all copies or substantial
+                            portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+                            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+                            OR OTHER DEALINGS IN THE SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="sfpicker">
+                        <h3>SfPicker</h3>
+                        <code>
+                            <a href="https://www.syncfusion.com/products/communitylicense"
+                               target="_blank">Syncfusion Community License</a>
+                        </code>
+                     </div>
+                     <div class="text-container" id="sfrangeslider">
+                        <h3>SfRangeSlider</h3>
+                        <code>
+                            <a href="https://www.syncfusion.com/products/communitylicense"
+                               target="_blank">Syncfusion Community License</a>
+                        </code>
+                     </div>
+                     <div class="text-container" id="simple_audio_player">
+                        <h3>SimpleAudioPlayer</h3>
+                        <code>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) 2017 Adrian Stevens<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all
+                            copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                            SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="nunit">
+                        <h3>Nunit</h3>
+                        <code>
+                            Copyright (c) 2019 Charlie Poole, Rob Prouse<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in
+                            all copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+                            THE SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="revenue_cat">
+                        <h3>RevenueCat SDK</h3>
+                        <code>
+                            MIT License<br>
+                            <br>
+                            Copyright (c) 2017 Jacob Eiting<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all
+                            copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                            SOFTWARE.
+                        </code>
+                     </div>
+                     <div class="text-container" id="spotify">
+                        <h3>Spotify SDK</h3>
+                        <code>
+                            <a href="https://developer.spotify.com/terms/#iii"
+                               target="_blank">Licenses and Permissions</a>
+                        </code>
+                     </div>
+                     <div class="text-container" id="admob-ios">
+                        <h3>Xamarin Component for Firebase AdMob for iOS</h3>
+                        <code>
+                            Note: This component depends on <a href="https://firebase.google.com/docs/admob/ios/quick-start"
+                               target="_blank">Firebase
+                                AdMob for iOS</a>, which is subject to the <a href="https://developers.google.com/admob/terms"
+                               target="_blank">Google AdMob Terms
+                                of
+                                Service</a>.<br>
+                            <br>
+                            Xamarin Component for Firebase AdMob for iOS<br>
+                            <br>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) .NET Foundation Contributors<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                            documentation files (the "Software"), to deal in the Software without restriction, including without
+                            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+                            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+                            conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all copies or substantial
+                            portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+                            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+                            OR OTHER DEALINGS IN THE SOFTWARE.<br>
+                            <br>
+                            20160910
+                        </code>
+                     </div>
+                     <div class="text-container" id="admob-droid">
+                        <h3>Xamarin Component for Google Play Services Client Library</h3>
+                        <code>
+                            This component depends on <a href="https://developers.google.com/android/guides/overview"
+                               target="_blank">Google Play Services Client Library</a>, which is subject to the terms of <a
+                               href="http://developer.android.com/sdk/terms.html"
+                               target="_blank">Android
+                                Software Development Kit License Agreement</a>.<br>
+                            <br>
+                            Xamarin Component for Google Play Services Client Library<br>
+                            <br>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) .NET Foundation Contributors<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                            documentation files (the "Software"), to deal in the Software without restriction, including without
+                            limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+                            the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+                            conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all copies or substantial
+                            portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                            LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+                            EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                            AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+                            OR OTHER DEALINGS IN THE SOFTWARE.<br>
+                            <br>
+                            20160427
+                        </code>
+                     </div>
+                     <div class="text-container" id="file_picker">
+                        <h3>FilePicker Plugin for Xamarin.Forms</h3>
+                        <code>
+                            The MIT License (MIT)<br>
+                            <br>
+                            Copyright (c) 2018 jfversluis - Xamarin & .NET<br>
+                            <br>
+                            Permission is hereby granted, free of charge, to any person obtaining a copy
+                            of this software and associated documentation files (the "Software"), to deal
+                            in the Software without restriction, including without limitation the rights
+                            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                            copies of the Software, and to permit persons to whom the Software is
+                            furnished to do so, subject to the following conditions:<br>
+                            <br>
+                            The above copyright notice and this permission notice shall be included in all
+                            copies or substantial portions of the Software.<br>
+                            <br>
+                            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                            SOFTWARE.
+                        </code>
+                     </div>
+
+                    <a class="btn-outline-reg" href="index.html">BACK</a>
+
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic -->
+    <!-- end of terms content -->
+
+    
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Third Party Software</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+
+     <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>About Practice Looper</h4>
+                        <p>Our vision: A simple app for looping songs, 
+                            but not only from your own audio files - but also with links to the major music libraries of
+                            different streaming services! Become part of the vision and support us ... start looping!</p> 
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Important Links</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a class="turquoise" href="terms-conditions.html">Legal Notice</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a class="turquoise" href="third-party.html">Third Party Software</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Social Media</h4>
+                        <span class="fa-stack">
+                            <a target="_blank" href="https://www.facebook.com/practicelooper">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a target="_blank" href="https://www.instagram.com/practicelooper_app/">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a target="_blank" href="https://twitter.com/practicelooper">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> 
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Maksim Kolesnik & Simon Symhoven</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+
+	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
