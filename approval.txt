@@ -1,0 +1,23 @@
+Meine App ist ein einfacher Looper, um eine ausgewählte Region zu loopen. Dabei kann entweder eine lokale Datei ausgewählt werden oder ein Song aus der Spotify Bibliothek hinzugefügt werden.
+Da ich Schlagzeug spiele und die App gerne nutze, um neue Songs zu lernen, möchte ich die App gerne komplett kostenfrei anderen Musikern zur Verfügung stellen.
+
+Für die Funktion werden die iOS/Droid SDKs und die Web API verwendet.
+Ich verwende die SDKs für die Wiedergabe der Songs und zum Einloggen.
+meine App speichert keinerlei Benutzerdaten und steuert lediglich Ihre Spotify App.
+
+Meine App benutzt folgende Funktionen aus den SDKs:
+-Play
+-Pause
+-Seek
+-Login
+-Get current playback position
+
+Meine App benutzt folgende Funktionen aus der Web API:
+-Search
+-Play
+-Pause
+-Get current playback position
+
+Damit die iOS Version der App ohne einer Abhängigkeit zur Spotify App funktioniert, wurde zudem der Spotify Web Player in eine WebView eingebettet. Es wird jedoch empfohlen die App zu installieren, um die beste Performance zu erreichen.
+
+Ich möchte die App kostenfrei zur Verfügung stellen und nichts daran verdienen.
